@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <task></task>
+    <task v-bind:tasks="tasks"></task>
   </div>
 </template>
 
@@ -18,12 +18,12 @@ export default {
         {
           id: 1,
           title: "Learn Vue JS",
-          completed: true,
+          completed: false,
         },
         {
           id: 2,
           title: "Watch netflix",
-          completed: true,
+          completed: false
         },
         {
           id: 3,

@@ -10,8 +10,8 @@ general
 
 body {
   font: 15px/1.4 "Poppins", sans-serif;
-  background: #4ec5c1;
-  color: #333;
+  background:rgb(8, 8, 97);
+  color:black;
 }
 
 #app {
@@ -30,7 +30,7 @@ input[type="text"] {
   font: 15px/1.4 "Poppins", sans-serif;
   padding: 15px;
   background: #f3f3f3;
-  color: #333;
+  color: black;
   border: 1px solid transparent;
   border-radius: 10px;
   transition: border 0.3s linear;
@@ -86,7 +86,7 @@ task
 .form button {
   background: none;
   border: none;
-  color: #4ec5c1;
+  color: gray;
   font-size: 18px;
   position: absolute;
   top: 50%;
@@ -102,7 +102,7 @@ task
 
 .clearBtns button {
   width: 100%;
-  background: #4ec5c1;
+  background:rgb(32, 178, 226);
   color: #fff;
   border: none;
   border-radius: 10px;
